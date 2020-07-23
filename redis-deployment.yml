@@ -22,3 +22,5 @@ spec:
         image: redis:latest
         ports:
         - containerPort: 6379
+      nodeSelector:
+        agentpool: default
